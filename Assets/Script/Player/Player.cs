@@ -26,6 +26,16 @@ public class Player : MonoBehaviour
     [SerializeField] private float radiusSphere = 0.3f;
 
 
+    [Header("dash")]
+    public float dashAtual;
+    public bool canDash;
+    public bool isDashing;
+    public float dashSpeed;
+    public float duracaoDash;
+    public float dashCooldown;
+
+
+
     void Start()
     {
 
@@ -39,6 +49,7 @@ public class Player : MonoBehaviour
         
         checkInput();
         animUpdate();
+        Dash();
     }   
 
     private void FixedUpdate() {
@@ -52,6 +63,11 @@ public class Player : MonoBehaviour
 
         if(dir > 0 && !facingRight || dir < 0 && facingRight) 
             flip();
+    }
+    
+    void flip (){
+        facingRight = !facingRight;
+        transform.rotation = Quaternion.Euler(0 , facingRight ? 0 : 180 , 0 );
     }
 
     private void checkInput(){
@@ -73,10 +89,45 @@ public class Player : MonoBehaviour
         
     }
 
+    public void Dash (){
+        if(Input.GetKeyDown(KeyCode.E) && isGround && canDash){
+            if(dashAtual <= 0 )
+                StopDash();
+            else{
+                isDashing = true;
+                dashAtual -= Time.deltaTime;
 
-    void flip (){
-        facingRight = !facingRight;
-        transform.rotation = Quaternion.Euler(0 , facingRight ? 0 : 180 , 0 );
+                // createParticle();
+
+                if(facingRight)
+                    playerRb.velocity = Vector2.right * dashSpeed;
+                else
+                    playerRb.velocity = Vector2.left * dashSpeed;
+            }
+        }
+
+        if(Input.GetKeyUp(KeyCode.E)){
+            isDashing = false;
+            canDash = true;
+            dashAtual = duracaoDash;
+        }
+    }
+
+    public void StopDash(){
+        playerRb.velocity = Vector2.zero;
+        StartCoroutine(DashCooldown());
+    }
+
+    IEnumerator DashCooldown(){
+        dashAtual = duracaoDash;
+        isDashing = false;
+        canDash = false;
+
+        yield return new WaitForSeconds(dashCooldown);
+    }
+
+    public void createParticle(){
+
     }
 
     public void animUpdate(){
