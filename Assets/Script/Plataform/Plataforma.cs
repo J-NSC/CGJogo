@@ -11,6 +11,8 @@ public class Plataforma : MonoBehaviour
     public Transform pointB;
 
     public bool moveDown = true;
+    public bool moveRight = true;
+    public bool TypePlataform = false;
     void Start()
     {
         
@@ -18,18 +20,37 @@ public class Plataforma : MonoBehaviour
 
     void Update()
     {
-        if(transform.position.y > pointA.position.y)
+        if(TypePlataform){
+            PlataformVertical();
+        }else{
+            PlataformHorizontal();
+        }
+        
+
+    }
+
+    private void PlataformVertical(){
+        if(transform.position.y > pointA.position.y){
             moveDown = true;
-        
-        if(transform.position.y < pointB.position.y)
+        }if(transform.position.y < pointB.position.y)
             moveDown = false;
-        
+
         if(moveDown)
             transform.position = new Vector2(transform.position.x, transform.position.y - speed * Time.deltaTime);
         else    
-            transform.position = new Vector2(transform.position.x, transform.position.y + speed * Time.deltaTime);
+            transform.position = new Vector2(transform.position.x, transform.position.y + speed * Time.deltaTime);  
+    }
 
+    public void PlataformHorizontal(){
+        if(transform.position.x < pointA.position.x)
+            moveRight = true;
+        if(transform.position.x > pointB.position.x)
+            moveRight = false;
 
+        if(moveRight)
+            transform.position = new Vector2(transform.position.x + speed * Time.deltaTime , transform.position.y );
+        else    
+            transform.position = new Vector2(transform.position.x - speed * Time.deltaTime,  transform.position.y );
     }
 
 

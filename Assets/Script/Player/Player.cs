@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -13,8 +12,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float jumpForce = 3f;
     [SerializeField] private int numJump = 2;
     [SerializeField] private bool isGround = true;
-    [SerializeField] private bool isTouchinWall = false;
-    [SerializeField] private bool secondJump = false;
+    [SerializeField] private bool camMove= true;
+    // [SerializeField] private bool isTouchinWall = false;
+    // [SerializeField] private bool secondJump = false;
 
     [Header("Components")]
     [SerializeField] private Rigidbody2D playerRb; 
@@ -22,18 +22,17 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask groundLayer; 
     [SerializeField] private Transform footPosition;
 
+
     [Header("radius")]
     [SerializeField] private float radiusSphere = 0.3f;
 
-
-    [Header("dash")]
-    public float dashAtual;
-    public bool canDash;
-    public bool isDashing;
-    public float dashSpeed;
-    public float duracaoDash;
-    public float dashCooldown;
-
+    [Header("Wall Jump")]
+    [SerializeField] private Transform wallCheck; 
+    [SerializeField] private bool isTouchinWall = false;
+    [SerializeField] private bool isSliding= false;
+    [SerializeField] private float wallSlidingSpeed;
+    [SerializeField] private float wallJumpforce;
+    [SerializeField] private Vector2 wallJumDirection; 
 
 
     void Start()
@@ -45,17 +44,35 @@ public class Player : MonoBehaviour
     {
         dir = Input.GetAxisRaw("Horizontal"); //1 ou -1 
         
-        isGround = Physics2D.OverlapCircle(footPosition.position, radiusSphere, groundLayer); //false se não tiver tocando true se tiver 
-        
-        checkInput();
+
+        CheckCollsion();
         animUpdate();
-        Dash();
+
     }   
 
     private void FixedUpdate() {
-        movePlayer(dir);
+        checkInput();
+        CheckWallSliding();
+
+        // if(wallJumping){
+        //     playerRb.velocity = new Vector2(-dir * wallJumpforce.x, wallJumpforce.y);
+        // }
     }
 
+#region checkCollision
+    public void CheckCollsion(){
+
+        isGround = Physics2D.OverlapCircle(footPosition.position, radiusSphere, groundLayer); //false se não tiver tocando true se tiver 
+        // wall
+        // isTouchinWall = Physics2D.Raycast(wallCheck.position, transform.right, wallCheckDistance, groundLayer); 
+        isTouchinWall = Physics2D.OverlapCircle(wallCheck.position, radiusSphere, groundLayer); 
+
+    }
+#endregion
+
+
+
+#region  movimentação
     private void movePlayer(float dir){
         playerRb.velocity = new Vector2(dir * speed, playerRb.velocity.y);
 
@@ -63,72 +80,99 @@ public class Player : MonoBehaviour
 
         if(dir > 0 && !facingRight || dir < 0 && facingRight) 
             flip();
+
+        if (isSliding){
+            if(playerRb.velocity.y < -wallSlidingSpeed){
+                // playerRb.velocity = new Vector2(playerRb.velocity.x, -wallSlidingSpeed);
+                playerRb.velocity = new Vector2(playerRb.velocity.x , Mathf.Clamp(playerRb.velocity.y, - wallSlidingSpeed, float.MaxValue));
+
+            }
+        
+        }
     }
     
     void flip (){
         facingRight = !facingRight;
         transform.rotation = Quaternion.Euler(0 , facingRight ? 0 : 180 , 0 );
     }
+#endregion
+
+#region  jump
 
     private void checkInput(){
+
+        if(camMove){
+            movePlayer(dir);
+        }
 
         if(isGround && !Input.GetKeyDown(KeyCode.Space))
             numJump = 1 ; 
 
-        if(Input.GetKeyDown(KeyCode.Space) && numJump > 0 ){
+        if(Input.GetKeyDown(KeyCode.Space)){
             Jump();
         }
-
+        
+      
 
     }
 
     public void Jump(){    
-        
-        playerRb.velocity = Vector2.up * jumpForce;
-        numJump--;
-        
-    }
+        if( numJump > 0 && !isSliding){
+            
+            numJump--;
+            playerRb.velocity = Vector2.up * jumpForce;
+        }else if(isSliding){
 
-    public void Dash (){
-        if(Input.GetKeyDown(KeyCode.E) && isGround && canDash){
-            if(dashAtual <= 0 )
-                StopDash();
-            else{
-                isDashing = true;
-                dashAtual -= Time.deltaTime;
+            Vector2 force = new Vector2 (wallJumpforce * wallJumDirection.x  * -dir, wallJumpforce * wallJumDirection.y);
+            playerRb.velocity = Vector2.zero;
+            playerRb.AddForce(force, ForceMode2D.Impulse);
 
-                // createParticle();
+            StartCoroutine(StopMove());
 
-                if(facingRight)
-                    playerRb.velocity = Vector2.right * dashSpeed;
-                else
-                    playerRb.velocity = Vector2.left * dashSpeed;
-            }
-        }
-
-        if(Input.GetKeyUp(KeyCode.E)){
-            isDashing = false;
-            canDash = true;
-            dashAtual = duracaoDash;
         }
     }
 
-    public void StopDash(){
-        playerRb.velocity = Vector2.zero;
-        StartCoroutine(DashCooldown());
+    IEnumerator StopMove(){
+        camMove = false; 
+        transform.localScale = transform.localScale.x == 1 ? new Vector2(-1 , 1) : Vector2.one;
+
+        yield return new WaitForSeconds(.3f);
+
+        transform.localScale = Vector2.one;
+        camMove = true;
     }
 
-    IEnumerator DashCooldown(){
-        dashAtual = duracaoDash;
-        isDashing = false;
-        canDash = false;
+#endregion
 
-        yield return new WaitForSeconds(dashCooldown);
+
+#region wallJump
+    public void CheckWallSliding (){
+        if(isTouchinWall && !isGround && playerRb.velocity.y < 0  && dir !=0){
+            isSliding = true;
+        }else{
+            isSliding = false;
+        }
+     }
+
+#endregion
+
+
+#region  plataform
+    private void OnCollisionEnter2D(Collision2D other) {
+        
+        if(other.gameObject.CompareTag("plataform")){
+            Debug.Log("oi");
+            this.transform.parent = other.transform;
+        }
     }
 
-    public void createParticle(){
-
+    private void OnCollisionExit2D(Collision2D other) {
+        if(other.gameObject.CompareTag("plataform")){
+            this.transform.parent = null;
+        }
     }
+#endregion 
+
 
     public void animUpdate(){
         playerAnim.SetBool("isGround", isGround);
@@ -139,8 +183,10 @@ public class Player : MonoBehaviour
     private void OnDrawGizmos() {
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(footPosition.position,radiusSphere);
+
+        // Gizmos.color = Color.red;
+        // Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y, wallCheck.position.z));
     }
-    
 
 
 

@@ -1,0 +1,3899 @@
+fileFormatVersion: 2
+guid: 74b9f06ad237d3c489c863e5320606a7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mmx_xsheet_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 879
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cf3946073f1df43824bbb98c69d842
+      internalID: 1903462943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 879
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1deca49d66e8b0e489a36a41e1809ad7
+      internalID: 960609381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 879
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322f3a9d7198e874db5e6b7f41cb434b
+      internalID: -205902755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 879
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1c273fbdbcff042b54a65bc8e235c7
+      internalID: 374093000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_4
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 879
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e921a562cd870914d9d4acd168cb90b5
+      internalID: 1953063237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 879
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3858cf98bca8f4479b977dc1f750697
+      internalID: 2121690412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 879
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032588b1944fd1343a19806c3144e556
+      internalID: 1711025181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 879
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d9c5883db3ff843a9bf63c050870e1
+      internalID: -1302562560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_8
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 879
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a93b62c704fc274b96ae9eede30b101
+      internalID: 1588238472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_9
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 879
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ef680839d561340bc1dfe85a5dbe1b
+      internalID: -1114422337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 830
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0781a16ed37e32246b1e8c19b1f5ee4e
+      internalID: -334651896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 830
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f02c9426fe7b3e459f376d4137f82f0
+      internalID: 525967371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 830
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d81bba5f3f8a6b4f95fb9034adacfbb
+      internalID: 2099494203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 830
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cf873bd75854c4888efdf271f6ed0b
+      internalID: -2004194700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 830
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735a6bf5b8a816d4690ec227ef2d633b
+      internalID: 295011488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_15
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 830
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13a0141c80ef884f811216f103409c3
+      internalID: 406049320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_16
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 830
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d3f468891bee04190581856cccee02
+      internalID: 1785176382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_17
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 830
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad5952b113d1a84b805666c5b3cfeaa
+      internalID: 1739815754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_18
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 830
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f09da19504c8cb4081d6036db25c9d0
+      internalID: -1047961787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 789
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa7ddc067aed394da3c3ef5c8d309d0
+      internalID: -874055477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 789
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637b5453763131846b0b209f47761006
+      internalID: -1410571421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 789
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179f7b9b84f1f8c45bdee2c2dfe8427b
+      internalID: 1929873929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_22
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 789
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6755f3834bca35943ae0b51ed99fdbf8
+      internalID: 106463472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_23
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 789
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bf770e431f5b249a2351295ab948e2
+      internalID: -1319352690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_24
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 789
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d518f8142dd4af4c97294baff627e8e
+      internalID: -849599742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_25
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 789
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c059f7e88d79745a08680935d39608
+      internalID: -120188218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 789
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e768a4a4bd65841b4d3bcb3426adf1
+      internalID: 2034311853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_27
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 789
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c168b201928d6584aa2d02a744286add
+      internalID: 2029275499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_28
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 789
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec8a82ceede0c443a60804d14438af2
+      internalID: -231875684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_29
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 789
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7305c8e44341459b96fb4b1e29c05
+      internalID: 589942956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_30
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 741
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f690aee802c54354187b0667cf588d18
+      internalID: -2129684206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 741
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b4a17f536aa8c41ab2329856d208bf
+      internalID: -311309773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_32
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 741
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0071001e36e06a408bb1cbc3ecf08b5
+      internalID: -1460040628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_33
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 741
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86802d287ba7a0a4a8b31d98533301f5
+      internalID: 1046164496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_34
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 741
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e8324e041b330469385563d0b82234
+      internalID: 457258291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_35
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 741
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74fb45dae5475f4589e001c2b0b4536
+      internalID: -750363146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_36
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 741
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9289c5d7bb843478f0d18ac564c08e
+      internalID: 1581446139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_37
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 741
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e0d554fde140a479052ae3936219aa
+      internalID: -1339401914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_38
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 741
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44c1a7489e989142b45506501286eee
+      internalID: 1861566128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_39
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 741
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9526fe2463dc04aa4e8256015b079a
+      internalID: -1980074529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_40
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 741
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fd491773531014dbbb37010bff699b
+      internalID: 242468543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_41
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 704
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e68fe2bc9e9df74b8c59e451595d666
+      internalID: -63599652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_42
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 703
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad9fd36f0c485e48b703c02247d8ad5
+      internalID: -1371018147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_43
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 703
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce4f19a0b7f6764d8f63f0d1d7acd11
+      internalID: -23079712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_44
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 703
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45459a2af8f377468ebc83918e67f76
+      internalID: 768739004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_45
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 703
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5b61d4d1b780b4b8929f9de91c1156
+      internalID: 449474361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_46
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 703
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b2f65cc7e438348ab70d6b9642bfe6
+      internalID: -496150321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_47
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 703
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3625de20045eae41a2bc193d1d66f63
+      internalID: -286094173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_48
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 703
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659a4277b285d954fb9777d4d42250cb
+      internalID: -1355505861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 703
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7942e3e39fc4b8a498ee4505b12cfcf0
+      internalID: -255827620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_50
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 703
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f735227f335ed404a858e83b740fd80d
+      internalID: 582476933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_51
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 703
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa7216acc8980145948ced4e7faaf44
+      internalID: -272810629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_52
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 661
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87533535cafd9e34eb842c61bbecee4f
+      internalID: -1153561751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 661
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882753c9aea49bc408ca1e02131734a7
+      internalID: -1975245085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_54
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 661
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c52ba417252984c97f67594ac7a4f4
+      internalID: -2035212230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_55
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 661
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34df948418301584c8d09aad0a29539c
+      internalID: 2039673242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_56
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 660
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fab79c6bb05bd49b730f14250564cf
+      internalID: -1720545149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_57
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 660
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfbdf1862adde840bd46f994dcb5802
+      internalID: -837008719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_58
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 660
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c483241fa145f5b4f92a584bc0e8573b
+      internalID: -174981935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_59
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 661
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94dfcf2ed7481540a809c5f367d1933
+      internalID: -1803487018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_60
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 661
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e392f5f262baf4f852467c858e1c12
+      internalID: -161484494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_61
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 607
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0c36a4989f21f4d9be45a3e74ea38e
+      internalID: -291787410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_62
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 607
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e0b7e8be2fb5543a4b66810f3c0420
+      internalID: 1771510275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_63
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 606
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d3fb3b218d9ec48907d16e2a9d5bba
+      internalID: 954163415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_64
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 606
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8c497b0de95c74aa62ea4c253cdb59
+      internalID: -1629914102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_65
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 609
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706bd566ea6e75a4fb12c4116ef81a91
+      internalID: 1914662544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_66
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 609
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e295a8296bbbfb6479833c906ce841f6
+      internalID: -1027355699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_67
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 609
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dc4eef674916143b51836dba22229f
+      internalID: 1604784906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_68
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 535
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662169ac88332304cb32a6e9b909dc4d
+      internalID: -899081167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_69
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 534
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eca3362f6760948a570fbcc12791dd
+      internalID: 1530559170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_70
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 534
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7be15ffa23a9744c8b2d7ddf51a45d1
+      internalID: -1457620635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_71
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 534
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8320f8a4a16f94893c47d5f592431f
+      internalID: 2035043033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_72
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 534
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500fae1866f541a48a66a16687cea68f
+      internalID: -1147645745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_73
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 534
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab3346d82d09c143800004ba83eb7b1
+      internalID: -116395169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_74
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 534
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3389871cb7c016d4d8aff9c7ff07bef6
+      internalID: 1554719042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_75
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 534
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119d3e754c774354cbb6f77b4cfa2e49
+      internalID: 743139297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_76
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 534
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c073715ec675af24299f470f8a3b70bf
+      internalID: 189894034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_77
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 534
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf72f2bade8db24e841f582a6e3a7a0
+      internalID: -1738154489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_78
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 534
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca85bf170c67b2849822be702f686e87
+      internalID: -835061389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_79
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 468
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1f1b2fbebefa542b89c44e92d04420
+      internalID: -599549110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_80
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 473
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a9a81ad976b1247865f79645f0bc29
+      internalID: 2055617967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_81
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 469
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c0970c5a8c4554ea65765fd25120dd
+      internalID: -398209560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_82
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 467
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6101724996443b489a7118d9e767a0f
+      internalID: 926898187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_83
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 468
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aef148aa5ef42644b6a064ab9841c2e
+      internalID: -908289763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_84
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 467
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cd7b1104f747342859d5723b8505de
+      internalID: -380282052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_85
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 463
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d76ea3a461398e478e15c080a00e733
+      internalID: 2038087632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_86
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 460
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f4d949e70e1714a9a0bcae58321f38
+      internalID: -1166942908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_87
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 461
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925f4bb955920234abaeab340798fa86
+      internalID: -1454344126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_88
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 478
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a7ab7eb32503546b1b00e00ef34a5c
+      internalID: 552614708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_89
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 461
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6855d675560017443897442e474332fd
+      internalID: 1722363592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_90
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 459
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415a741b2ef21ba4f9c5a65e82316786
+      internalID: 2005809621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_91
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 416
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca6b73d204462640b58319326d385ff
+      internalID: 1340846868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_92
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 416
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9ceb443471c1540b4528865b2ec94e
+      internalID: -1520209770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_93
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 416
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03eb993743c990499538a9b462b4bd7
+      internalID: 421241520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_94
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 416
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaf9da1900b1184fb3dfa8746be920a
+      internalID: -1681110187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_95
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 416
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66c9f64a43e98d4bad63d1fd69b5b25
+      internalID: -1377467478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_96
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 416
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400ee5f68db61d14185fe167341bf0aa
+      internalID: 683080090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_97
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 361
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eeb821c90d3bc349925c8dfcdcbb44e
+      internalID: -1739855445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_98
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 361
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c03e477437deae4ca03d46ba7d5f60a
+      internalID: -382318717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 361
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48a859fa837bbe40afec3e58125945c
+      internalID: 2000959177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_100
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 361
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd55a7be710bb149b76efbcb952bbe2
+      internalID: -2084330651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_101
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 361
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ddacd11148f824bb6703fe451952ba
+      internalID: -2112321427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_102
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 361
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1727cf985f694a44a5944c6ca41907a
+      internalID: 1188115522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_103
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 360
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cbd501dd159bf4caed460051c6c19f
+      internalID: 367809771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_104
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 362
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e9629524d08d24082c4e9c3ba01251
+      internalID: -331613913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_105
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 361
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5d1fc83d3ac904c8dd589aa8dd0ece
+      internalID: 95766427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_106
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 362
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423c771ddcfd5354e8f08b2e842d427a
+      internalID: 1165726215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_107
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 304
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8537a752cade5f04ab700fbb40e5853e
+      internalID: 1311918690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_108
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 304
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60ae5ef641e8da4a954774cda43fd82
+      internalID: 1056441691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_109
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 307
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd73ce34ab856014a90065e36a6091d4
+      internalID: -1986595521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_110
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 307
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35877c68673390b489e165cc91cd65ca
+      internalID: 916218440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_111
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 304
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe10195b59d4d9d47b07ac6a997b1b18
+      internalID: -1373085332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_112
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 316
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a99dae4b7c41f344a3addaf3b9f2f24
+      internalID: -600627582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_113
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 321
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2e0db6756850a45a19633e08c364fe
+      internalID: -1531838822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_114
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 305
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df1a12055fefc74a9ec306bd764037c
+      internalID: 1454335784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_115
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 254
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30d67df30213c7429c0038a243033a7
+      internalID: -367812094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f1b341bb1f0a64b9ee9668b94e69ca
+      internalID: 1988156236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_117
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91fcec8ace75014bb734f86d020c98a
+      internalID: -126755108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_118
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 250
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ae7f2f1952acd4cb0212638acb5d8e
+      internalID: 344018050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_119
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6223053915c44ab4f8014f6e1dcf1dc1
+      internalID: -1124343971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_120
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 250
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e23080c747bc347828e3c24310d829
+      internalID: 2039478215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_121
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712ba7f16b9b1f649b255b7010b21da9
+      internalID: -741411263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_122
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 250
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab40cf63c6895b34ab0b9eb1dfb5fa04
+      internalID: 2016285937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_123
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 254
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7bb2a309bfc3247be5bce7a12f15f4
+      internalID: -1955923239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_124
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aae3886ec1a0384cb142c9d26d8967d
+      internalID: 769836337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_125
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 254
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a52835a6d69fd8479c43b06fb8939f8
+      internalID: 707004054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_126
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 254
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f4f531a14d9724198946e2bde04bef
+      internalID: 516138447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_127
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 192
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a91aaca43c9e44f8b5939162f78520
+      internalID: -1602375117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_128
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a30a10831614e4380c6071b4ef9699
+      internalID: -1336770709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_129
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 189
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a635996b756ab341bf8d79e7beae6f7
+      internalID: -2002604754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_130
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 190
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f57eb087091ac40b7332aa6e5ae7fe
+      internalID: -1340052558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_131
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 190
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7248832d66e71bd4483f3f86ffa2f778
+      internalID: -2120698842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_132
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 190
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f15b8fa680cdca45b744ecfdddbc458
+      internalID: 1605489354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_133
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 190
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a275286a3cb1ed4fa1b9d67051448a5
+      internalID: -1393864141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_134
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 190
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bbf176c8416db48aabe415cd690f90
+      internalID: -1625887862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_135
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 192
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eb04f0a3c6a734d83b2fee6cc558d7
+      internalID: -726561808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_136
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 192
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1d7d9b005e27e4bb6f1b141a305dea
+      internalID: 624015021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_137
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 193
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72148deeff9d4343930f85133fafc8e
+      internalID: 1956369526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_138
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 184
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d739668d248af514db8430c4c99c3f57
+      internalID: -133001242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_139
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 193
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d0cf7114bd2c84cacaf6335d9b8d36
+      internalID: 972803634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_140
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 130
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff352b76db3e41488d6aec5997d7f86
+      internalID: -1386303079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_141
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 134
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1719475131642424c95dc3c0a0aa026c
+      internalID: 1949781832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_142
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 131
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cbc88f8c8270b4d83b6f298894fc30
+      internalID: 1655687574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_143
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 133
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846b84c35ae18784f923933053613b31
+      internalID: 640108811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_144
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 136
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd466c4a37cd3946a8dc057f077a67e
+      internalID: -110108300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_145
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 138
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4743908a97da0b442b7165493f63e164
+      internalID: -632851908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_147
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 99
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd1cffa6790ef7438be37805db3ced5
+      internalID: 1936892617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_148
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 94
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c61174fc8fc34449a10dbc8d757e25d
+      internalID: 168660201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_149
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 90
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491c34b4fecad824f909f3cfd3f5039e
+      internalID: -1503628403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_150
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 86
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d5a9e32c9252a4982db00f6c5d53c3
+      internalID: 497416010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_151
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 89
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76d25c3f6470bd4fb0f4dca8fa4a2c0
+      internalID: -1358953926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_152
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 89
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facbcff97ce1e884fac9081c81e48ac4
+      internalID: -1341717977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_153
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 89
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163f913e6de5637458991d98d94f4a40
+      internalID: 1483447983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_154
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 87
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7443e871b68ec746accdbb23a30c2f9
+      internalID: 346753651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_155
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 47
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249d6d2188eafe241a772934dc3c1c2f
+      internalID: -415576638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_156
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 47
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a5ac13b67d51840be849c097b834c8
+      internalID: 1678275742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_157
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 47
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbdfa939d8b15d42ac79960ea89b96b
+      internalID: 559247724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_158
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 47
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9d5ed39f753414c8ece50928340f3c
+      internalID: 811686457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_159
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 47
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406b75b1d1bf80e42a698c1fc49894ed
+      internalID: -739287033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_160
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 47
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024b2f21ed9d9474a8e4f8e20a13249a
+      internalID: -2126873764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_161
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 47
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391861d6f2595ff429c0d28748f0d824
+      internalID: 1497933030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_162
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 50
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc5761193b4266439d05e3bbb52a4b6
+      internalID: 268246863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_163
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 50
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1064ddc75d001714fac8482f0192d88c
+      internalID: -1926315653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_164
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 50
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b56d5855b300e54a81e9a0a364e0dcd
+      internalID: 2069011846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_165
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 50
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b001b7580a89bc419e667d6afc77b90
+      internalID: 838463093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_166
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 50
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97360aa5d0f8e54e95b90e618e42987
+      internalID: 1292734317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_167
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee730f50c2532d3409fad4d680068fd7
+      internalID: -40868622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_168
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f115c3131459a4bb3d1d203040451c
+      internalID: 1165108613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_169
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 5
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd809f8a46e88b34181e82755e05ee12
+      internalID: 293090599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_xsheet_170
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 8
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882a01bf5a770d24fa82609f7a163969
+      internalID: 913037481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mmx_xsheet_55: 2039673242
+      mmx_xsheet_5: 2121690412
+      mmx_xsheet_148: 168660201
+      mmx_xsheet_79: -599549110
+      mmx_xsheet_163: -1926315653
+      mmx_xsheet_118: 344018050
+      mmx_xsheet_33: 1046164496
+      mmx_xsheet_82: 926898187
+      mmx_xsheet_39: -1980074529
+      mmx_xsheet_102: 1188115522
+      mmx_xsheet_137: 1956369526
+      mmx_xsheet_43: -23079712
+      mmx_xsheet_131: -2120698842
+      mmx_xsheet_23: -1319352690
+      mmx_xsheet_63: 954163415
+      mmx_xsheet_45: 449474361
+      mmx_xsheet_28: -231875684
+      mmx_xsheet_126: 516138447
+      mmx_xsheet_58: -174981935
+      mmx_xsheet_133: -1393864141
+      mmx_xsheet_85: 2038087632
+      mmx_xsheet_41: -63599652
+      mmx_xsheet_132: 1605489354
+      mmx_xsheet_2: -205902755
+      mmx_xsheet_18: -1047961787
+      mmx_xsheet_153: 1483447983
+      mmx_xsheet_22: 106463472
+      mmx_xsheet_14: 295011488
+      mmx_xsheet_134: -1625887862
+      mmx_xsheet_12: 2099494203
+      mmx_xsheet_64: -1629914102
+      mmx_xsheet_60: -161484494
+      mmx_xsheet_124: 769836337
+      mmx_xsheet_74: 1554719042
+      mmx_xsheet_80: 2055617967
+      mmx_xsheet_114: 1454335784
+      mmx_xsheet_36: 1581446139
+      mmx_xsheet_20: -1410571421
+      mmx_xsheet_154: 346753651
+      mmx_xsheet_44: 768739004
+      mmx_xsheet_145: -632851908
+      mmx_xsheet_6: 1711025181
+      mmx_xsheet_110: 916218440
+      mmx_xsheet_149: -1503628403
+      mmx_xsheet_141: 1949781832
+      mmx_xsheet_123: -1955923239
+      mmx_xsheet_48: -1355505861
+      mmx_xsheet_95: -1377467478
+      mmx_xsheet_166: 1292734317
+      mmx_xsheet_159: -739287033
+      mmx_xsheet_162: 268246863
+      mmx_xsheet_125: 707004054
+      mmx_xsheet_164: 2069011846
+      mmx_xsheet_77: -1738154489
+      mmx_xsheet_46: -496150321
+      mmx_xsheet_72: -1147645745
+      mmx_xsheet_119: -1124343971
+      mmx_xsheet_0: 1903462943
+      mmx_xsheet_107: 1311918690
+      mmx_xsheet_26: 2034311853
+      mmx_xsheet_62: 1771510275
+      mmx_xsheet_165: 838463093
+      mmx_xsheet_161: 1497933030
+      mmx_xsheet_111: -1373085332
+      mmx_xsheet_130: -1340052558
+      mmx_xsheet_8: 1588238472
+      mmx_xsheet_16: 1785176382
+      mmx_xsheet_66: -1027355699
+      mmx_xsheet_94: -1681110187
+      mmx_xsheet_105: 95766427
+      mmx_xsheet_146: -255282419
+      mmx_xsheet_86: -1166942908
+      mmx_xsheet_83: -908289763
+      mmx_xsheet_100: -2084330651
+      mmx_xsheet_152: -1341717977
+      mmx_xsheet_32: -1460040628
+      mmx_xsheet_160: -2126873764
+      mmx_xsheet_9: -1114422337
+      mmx_xsheet_127: -1602375117
+      mmx_xsheet_120: 2039478215
+      mmx_xsheet_24: -849599742
+      mmx_xsheet_27: 2029275499
+      mmx_xsheet_67: 1604784906
+      mmx_xsheet_54: -2035212230
+      mmx_xsheet_116: 1988156236
+      mmx_xsheet_57: -837008719
+      mmx_xsheet_47: -286094173
+      mmx_xsheet_61: -291787410
+      mmx_xsheet_13: -2004194700
+      mmx_xsheet_50: 582476933
+      mmx_xsheet_96: 683080090
+      mmx_xsheet_56: -1720545149
+      mmx_xsheet_104: -331613913
+      mmx_xsheet_89: 1722363592
+      mmx_xsheet_15: 406049320
+      mmx_xsheet_167: -40868622
+      mmx_xsheet_31: -311309773
+      mmx_xsheet_65: 1914662544
+      mmx_xsheet_140: -1386303079
+      mmx_xsheet_91: 1340846868
+      mmx_xsheet_98: -382318717
+      mmx_xsheet_11: 525967371
+      mmx_xsheet_150: 497416010
+      mmx_xsheet_73: -116395169
+      mmx_xsheet_40: 242468543
+      mmx_xsheet_117: -126755108
+      mmx_xsheet_71: 2035043033
+      mmx_xsheet_142: 1655687574
+      mmx_xsheet_49: -255827620
+      mmx_xsheet_78: -835061389
+      mmx_xsheet_69: 1530559170
+      mmx_xsheet_30: -2129684206
+      mmx_xsheet_81: -398209560
+      mmx_xsheet_136: 624015021
+      mmx_xsheet_68: -899081167
+      mmx_xsheet_1: 960609381
+      mmx_xsheet_92: -1520209770
+      mmx_xsheet_101: -2112321427
+      mmx_xsheet_70: -1457620635
+      mmx_xsheet_129: -2002604754
+      mmx_xsheet_19: -874055477
+      mmx_xsheet_84: -380282052
+      mmx_xsheet_87: -1454344126
+      mmx_xsheet_121: -741411263
+      mmx_xsheet_17: 1739815754
+      mmx_xsheet_42: -1371018147
+      mmx_xsheet_109: -1986595521
+      mmx_xsheet_25: -120188218
+      mmx_xsheet_151: -1358953926
+      mmx_xsheet_75: 743139297
+      mmx_xsheet_4: 1953063237
+      mmx_xsheet_169: 293090599
+      mmx_xsheet_38: 1861566128
+      mmx_xsheet_170: 913037481
+      mmx_xsheet_138: -133001242
+      mmx_xsheet_93: 421241520
+      mmx_xsheet_108: 1056441691
+      mmx_xsheet_128: -1336770709
+      mmx_xsheet_29: 589942956
+      mmx_xsheet_122: 2016285937
+      mmx_xsheet_90: 2005809621
+      mmx_xsheet_155: -415576638
+      mmx_xsheet_53: -1975245085
+      mmx_xsheet_97: -1739855445
+      mmx_xsheet_76: 189894034
+      mmx_xsheet_112: -600627582
+      mmx_xsheet_103: 367809771
+      mmx_xsheet_21: 1929873929
+      mmx_xsheet_106: 1165726215
+      mmx_xsheet_51: -272810629
+      mmx_xsheet_59: -1803487018
+      mmx_xsheet_147: 1936892617
+      mmx_xsheet_37: -1339401914
+      mmx_xsheet_157: 559247724
+      mmx_xsheet_139: 972803634
+      mmx_xsheet_143: 640108811
+      mmx_xsheet_88: 552614708
+      mmx_xsheet_3: 374093000
+      mmx_xsheet_99: 2000959177
+      mmx_xsheet_158: 811686457
+      mmx_xsheet_7: -1302562560
+      mmx_xsheet_115: -367812094
+      mmx_xsheet_52: -1153561751
+      mmx_xsheet_168: 1165108613
+      mmx_xsheet_144: -110108300
+      mmx_xsheet_135: -726561808
+      mmx_xsheet_34: 457258291
+      mmx_xsheet_113: -1531838822
+      mmx_xsheet_35: -750363146
+      mmx_xsheet_10: -334651896
+      mmx_xsheet_156: 1678275742
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
