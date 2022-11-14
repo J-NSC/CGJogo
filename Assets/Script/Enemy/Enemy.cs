@@ -11,6 +11,7 @@ public class  Enemy : MonoBehaviour
     [SerializeField] private int idChangeValue = 1; 
 
     [SerializeField] private float speed;
+    [SerializeField] private Animator animEnemy;
 
 
     private void Reset() {
@@ -77,5 +78,11 @@ public class  Enemy : MonoBehaviour
         }
         
          
+    }
+
+    public void death(){
+        animEnemy.SetTrigger("death");
+        Debug.Log("oi");
+
     }
 }

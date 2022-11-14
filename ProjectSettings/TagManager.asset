@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - plataform
+  - Collecteble
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -44,6 +46,9 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 3991420531
+    locked: 0
+  - name: Collecteble
+    uniqueID: 1228675375
     locked: 0
   - name: player
     uniqueID: 2885922735
