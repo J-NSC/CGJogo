@@ -11,9 +11,7 @@ enum PlayerState {
 
 public class Player : MonoBehaviour
 {
-    private Enemy eagle;
     [SerializeField] private PlayerState playerState;
-    [SerializeField] private float hurtForce;
 
     [Header("Horizontal Moviment")]
     [SerializeField] private float speed = 10f; 
@@ -41,17 +39,14 @@ public class Player : MonoBehaviour
     [SerializeField] private bool isSliding= false;
     [SerializeField] private float wallSlidingSpeed;
     [SerializeField] private float wallJumpforce;
-    [SerializeField] private Vector2 wallJumDirection; 
+    [SerializeField] private Vector2 wallJumDirection;
 
-    [Header("Collectebles")]
-    private int _cherry = 0 ;
-
-    
-    public int cherry { get => _cherry; set => _cherry = value; }
+    internal PlayerState PlayerState { get => playerState; set => playerState = value; }
+    public Rigidbody2D PlayerRb { get => playerRb; set => playerRb = value; }
 
     void Start()
     {
-        playerState = PlayerState.idle;
+        PlayerState = PlayerState.idle;
     }
 
     void Update()
@@ -85,14 +80,14 @@ public class Player : MonoBehaviour
 
 #region  movimentação
     private void movePlayer(float dir){
-        playerRb.velocity = new Vector2(dir * speed, playerRb.velocity.y);
+        PlayerRb.velocity = new Vector2(dir * speed, PlayerRb.velocity.y);
 
         if(dir > 0 && !facingRight || dir < 0 && facingRight) 
             flip();
 
         if (isSliding){
-            if(playerRb.velocity.y < -wallSlidingSpeed){
-                playerRb.velocity = new Vector2(playerRb.velocity.x , Mathf.Clamp(playerRb.velocity.y, - wallSlidingSpeed, float.MaxValue));
+            if(PlayerRb.velocity.y < -wallSlidingSpeed){
+                PlayerRb.velocity = new Vector2(PlayerRb.velocity.x , Mathf.Clamp(PlayerRb.velocity.y, - wallSlidingSpeed, float.MaxValue));
             }
         
         }
@@ -108,7 +103,7 @@ public class Player : MonoBehaviour
 
     private void checkInput(){
 
-        if(camMove && playerState != PlayerState.hurt){
+        if(camMove && PlayerState != PlayerState.hurt){
             movePlayer(dir);
         }
 
@@ -129,13 +124,13 @@ public class Player : MonoBehaviour
  
         if(numJump > 0 && !isSliding){
            numJump--;  
-           playerRb.velocity = Vector2.up * jumpForce;
-           playerState = PlayerState.jumping;
+           PlayerRb.velocity = Vector2.up * jumpForce;
+           PlayerState = PlayerState.jumping;
         }else if(isSliding){
 
             Vector2 force = new Vector2 (wallJumpforce * wallJumDirection.x  * -dir, wallJumpforce * wallJumDirection.y);
-            playerRb.velocity = Vector2.zero;
-            playerRb.AddForce(force, ForceMode2D.Impulse);
+            PlayerRb.velocity = Vector2.zero;
+            PlayerRb.AddForce(force, ForceMode2D.Impulse);
 
             StartCoroutine(StopMove());
 
@@ -143,8 +138,8 @@ public class Player : MonoBehaviour
     }
 
     public void JumpInMonster(){
-        playerRb.velocity = Vector2.up * jumpForce;
-        playerState = PlayerState.jumping;
+        PlayerRb.velocity = Vector2.up * jumpForce;
+        PlayerState = PlayerState.jumping;
     }
 
     IEnumerator StopMove(){
@@ -161,7 +156,7 @@ public class Player : MonoBehaviour
 
 #region wallJump
     public void CheckWallSliding (){
-        if(isTouchinWall && !isGround && playerRb.velocity.y < 0  && dir !=0){
+        if(isTouchinWall && !isGround && PlayerRb.velocity.y < 0  && dir !=0){
             isSliding = true;
         }else{
             isSliding = false;
@@ -172,79 +167,33 @@ public class Player : MonoBehaviour
 
 #region animation
     public void animUpdate(){
-        playerAnim.SetInteger("State" , (int)playerState);
+        playerAnim.SetInteger("State" , (int)PlayerState);
     } 
 #endregion
 
 #region stateMachineChance
     public void chanceStateMachine(){
-        if(playerState == PlayerState.jumping){
-            if(playerRb.velocity.y < .1f){
-                playerState = PlayerState.falling;
+        if(PlayerState == PlayerState.jumping){
+            if(PlayerRb.velocity.y < .1f){
+                PlayerState = PlayerState.falling;
             }
-        }else if(playerState == PlayerState.hurt){
-            if(Mathf.Abs( playerRb.velocity.x)  < .1f){
-                playerState = PlayerState.idle;
+        }else if(PlayerState == PlayerState.hurt){
+            if(Mathf.Abs( PlayerRb.velocity.x)  < .1f){
+                PlayerState = PlayerState.idle;
             }
 
-        }else if(playerState == PlayerState.falling){
+        }else if(PlayerState == PlayerState.falling){
             if(isGround)
-                playerState = PlayerState.idle;
-        }else if(Mathf.Abs(playerRb.velocity.x) > 2f){
-            playerState = PlayerState.run;
+                PlayerState = PlayerState.idle;
+        }else if(Mathf.Abs(PlayerRb.velocity.x) > 2f){
+            PlayerState = PlayerState.run;
         }else {
-            playerState = PlayerState.idle;
+            PlayerState = PlayerState.idle;
         }
 
 
     }
 #endregion
-
-#region Collision and Trigger
-
-
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.CompareTag("Collecteble")){
-            _cherry ++;
-            Destroy(other.gameObject);
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D other) {
-        eagle = other.gameObject.GetComponent<Enemy>();
-
-        if(other.gameObject.CompareTag("plataform")){
-            this.transform.parent = other.transform;
-        }
-
-        if(other.gameObject.CompareTag("enemy")){
-
-            if(playerState == PlayerState.falling){
-                eagle.death();    
-                Destroy(other.gameObject);
-                JumpInMonster();
-            }else {
-                playerState = PlayerState.hurt;
-                if(other.gameObject.transform.position.x > transform.position.x){
-                    playerRb.velocity = new Vector2(-hurtForce, playerRb.velocity.y);
-                }else{
-                    playerRb.velocity = new Vector2(hurtForce, playerRb.velocity.y);
-                }
-
-            }
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D other) {
-        if(other.gameObject.CompareTag("plataform")){
-            this.transform.parent = null;
-        }
-    }
-
-    
-#endregion
-
-
 
     
 }

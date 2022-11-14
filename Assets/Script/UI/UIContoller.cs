@@ -6,12 +6,12 @@ using TMPro;
 public class UIContoller : MonoBehaviour
 {
     [SerializeField]private TMP_Text CherryCount;
-    private Player player;
+    private PlayerCollider player;
 
 
     void Start()
     {
-        player = FindObjectOfType<Player>();
+        player = FindObjectOfType<PlayerCollider>();
     }
 
     void Update()

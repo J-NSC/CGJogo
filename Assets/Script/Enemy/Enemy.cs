@@ -80,9 +80,14 @@ public class  Enemy : MonoBehaviour
          
     }
 
-    public void death(){
+    public void AnimDeath(){
+        speed = 0;
         animEnemy.SetTrigger("death");
         Debug.Log("oi");
 
+    }
+
+    public void death (){
+        Destroy(this.gameObject);
     }
 }
