@@ -41,12 +41,17 @@ public class Player : MonoBehaviour
     [SerializeField] private float wallJumpforce;
     [SerializeField] private Vector2 wallJumDirection;
 
+    [Header("sound effect")]
+    [SerializeField] private AudioSource footstep;
+    
+
     internal PlayerState PlayerState { get => playerState; set => playerState = value; }
     public Rigidbody2D PlayerRb { get => playerRb; set => playerRb = value; }
 
     void Start()
     {
         PlayerState = PlayerState.idle;
+        footstep = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -195,5 +200,10 @@ public class Player : MonoBehaviour
     }
 #endregion
 
-    
+
+    private void FootStep (){
+        footstep.Play();
+    }
+
+
 }

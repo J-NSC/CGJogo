@@ -7,25 +7,13 @@ public class PlayerCollider : MonoBehaviour
 
     [SerializeField] private float hurtForce;
 
-    
-    [Header("Collectebles")]
-    private int _cherry = 0 ;
-
-    // get and set
-    public int cherry { get => _cherry; set => _cherry = value; }
-
     void Start()
     {
         player = FindObjectOfType<Player>();
         enemy = FindObjectOfType<Enemy>();
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.CompareTag("Collecteble")){
-            _cherry ++;
-            Destroy(other.gameObject);
-        }
-    }
+
 
     private void OnCollisionEnter2D(Collision2D other) {
         enemy = other.gameObject.GetComponent<Enemy>();

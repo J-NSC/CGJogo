@@ -5,17 +5,22 @@ using TMPro;
 
 public class UIContoller : MonoBehaviour
 {
-    [SerializeField]private TMP_Text CherryCount;
-    private PlayerCollider player;
+    [SerializeField]private TMP_Text CherryScore;
+    
+    private Cherry cherry;
 
+    private int _CherryCount = 0;
+
+    public int CherryCount { get => _CherryCount; set => _CherryCount = value; }
 
     void Start()
     {
-        player = FindObjectOfType<PlayerCollider>();
+        cherry = FindObjectOfType<Cherry>();
+        
     }
 
     void Update()
     {
-        CherryCount.text = player.cherry.ToString();
+        CherryScore.text = _CherryCount.ToString();
     }
 }

@@ -13,6 +13,9 @@ public class  Enemy : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private Animator animEnemy;
 
+    [SerializeField] private AudioSource deathAudio;
+
+
 
     private void Reset() {
         init();
@@ -82,12 +85,12 @@ public class  Enemy : MonoBehaviour
 
     public void AnimDeath(){
         speed = 0;
+        deathAudio.Play();
         animEnemy.SetTrigger("death");
-        Debug.Log("oi");
-
     }
 
     public void death (){
         Destroy(this.gameObject);
     }
+
 }
