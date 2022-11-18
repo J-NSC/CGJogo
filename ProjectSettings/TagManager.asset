@@ -50,6 +50,9 @@ TagManager:
   - name: Collecteble
     uniqueID: 1228675375
     locked: 0
+  - name: Props
+    uniqueID: 4264658495
+    locked: 0
   - name: player
     uniqueID: 2885922735
     locked: 0

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Cherry : MonoBehaviour
 {
-    private Enemy enemy;
     private UIContoller ui;
 
     [ SerializeField] private AudioSource cherrySound;
