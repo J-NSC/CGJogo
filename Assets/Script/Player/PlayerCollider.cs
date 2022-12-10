@@ -34,7 +34,6 @@ public class PlayerCollider : MonoBehaviour
                 }else{
                     player.PlayerRb.velocity = new Vector2(hurtForce, player.PlayerRb.velocity.y);
                 }
-
             }
         }
     }

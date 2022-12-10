@@ -15,9 +15,16 @@ public class LevelChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+   
     }
 
     private void LoadLevel(){
         SceneManager.LoadScene(levelName);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(ObjectCount.inst.Cherrys.Count == 0 && other.gameObject.CompareTag("Player")){
+            LoadLevel();
+        }
     }
 }

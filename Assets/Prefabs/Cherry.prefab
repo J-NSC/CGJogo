@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8759657693660290273}
   - component: {fileID: 1954951320}
   m_Layer: 0
-  m_Name: Collecteble
+  m_Name: Cherry
   m_TagString: Collecteble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

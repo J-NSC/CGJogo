@@ -52,6 +52,7 @@ public class Player : MonoBehaviour
     {
         PlayerState = PlayerState.idle;
         footstep = GetComponent<AudioSource>();
+        
     }
 
     void Update()
@@ -102,6 +103,7 @@ public class Player : MonoBehaviour
         facingRight = !facingRight;
         transform.rotation = Quaternion.Euler(0 , facingRight ? 0 : 180 , 0 );
     }
+
 #endregion
 
 #region  jump
@@ -195,8 +197,6 @@ public class Player : MonoBehaviour
         }else {
             PlayerState = PlayerState.idle;
         }
-
-
     }
 #endregion
 
@@ -205,5 +205,13 @@ public class Player : MonoBehaviour
         footstep.Play();
     }
 
-
+    /// <summary>
+    /// Callback to draw gizmos that are pickable and always drawn.
+    /// </summary>
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(footPosition.position , radiusSphere);
+    }
+    
 }

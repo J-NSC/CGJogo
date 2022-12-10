@@ -10,8 +10,13 @@ public class UIContoller : MonoBehaviour
     
 
     private int _CherryCount = 0;
+    [SerializeField] private List<Cherry> cherry ; 
 
     public int CherryCount { get => _CherryCount; set => _CherryCount = value; }
+
+    private void Awake() { // sempre vai ser execultado 
+        DontDestroyOnLoad(gameObject);
+    }
 
     void Update()
     {
